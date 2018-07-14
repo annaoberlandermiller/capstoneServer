@@ -9,7 +9,6 @@ namespace PRSserver.Models {
 	public class User {
 		public int Id { get; set; }
 
-		
 		[StringLength(30)]
 		[Index("IDX_Username", IsUnique = true)]
 		public string Username { get; set; }
